@@ -14,7 +14,7 @@ table
         td = rodent.name
         td = link_to 'Show', rodent
         td = link_to 'Edit', edit_rodent_path(rodent)
-        td = link_to 'Destroy', rodent, data: { confirm: 'Are you sure?' }, method: :delete
+        td = link_to 'Destroy', rodent, data: { turbo_confirm: 'Are you sure?', turbo_method: :delete }
 
 br
 
