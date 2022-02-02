@@ -1,0 +1,22 @@
+h1 Listing rodents
+
+table
+  thead
+    tr
+      th Name
+      th
+      th
+      th
+
+  tbody
+    - @rodents.each do |rodent|
+      tr
+        td = rodent.name
+        td = link_to 'Show', rodent
+        td = link_to 'Edit', edit_rodent_path(rodent)
+        td = link_to 'Destroy', rodent, data: { confirm: 'Are you sure?' }, method: :delete
+
+br
+
+p = link_to 'New Rodent', new_rodent_path
+p = link_to 'Back to dashboard', root_path
