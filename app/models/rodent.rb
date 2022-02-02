@@ -5,6 +5,6 @@ class Rodent < ApplicationRecord
   private
 
   def update_rodents_counter
-    broadcast_replace_to :dashboard, target: 'rodents-counter', partial: 'dashboard/counter'
+    broadcast_replace_to :dashboard, target: 'rodents-counter', partial: 'dashboard/rodents_counter'
   end
 end
