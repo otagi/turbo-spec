@@ -2,8 +2,9 @@ p#notice = notice
 
 p
   strong Name:
-  = @rodent.name
+  =< @rodent.name
 
-=> link_to 'Edit', edit_rodent_path(@rodent)
-'|
-=< link_to 'Back', rodents_path
+p
+  => link_to 'Edit', edit_rodent_path(@rodent)
+  '|
+  =< link_to 'Back', rodents_path
