@@ -1,24 +1,5 @@
-# README
+# The Rodent Encyclopedia
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A very simple Rails app to showcase a dynamic page element update with Turbo Streams.
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Companion to the blog article [Fun with Turbo Streams and Capybara](https://www.mendes-costa.net/posts/fun-with-turbo-streams-and-capybara).
