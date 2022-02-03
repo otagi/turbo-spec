@@ -42,7 +42,7 @@ class RodentsController < ApplicationController
   # DELETE /rodents/1
   def destroy
     @rodent.destroy
-    redirect_to rodents_url, notice: "Rodent was successfully destroyed."
+    redirect_to rodents_url, notice: "Rodent was successfully destroyed.", status: :see_other
   end
 
   private
